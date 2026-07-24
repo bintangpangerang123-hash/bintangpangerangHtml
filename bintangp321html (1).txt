@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV | A. Bintang Pangerang</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,Arial,sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f766e,#14b8a6);
+    padding:40px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+}
+
+.header{
+    background:#0f766e;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+.header img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:5px solid white;
+    margin-bottom:15px;
+}
+
+.header h1{
+    font-size:38px;
+}
+
+.header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+.content{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+}
+
+.left{
+    background:#f7f7f7;
+    padding:30px;
+}
+
+.right{
+    padding:30px;
+}
+
+h2{
+    color:#0f766e;
+    margin-bottom:15px;
+    border-bottom:3px solid #14b8a6;
+    padding-bottom:8px;
+}
+
+.info{
+    margin-bottom:20px;
+}
+
+.info p{
+    margin:10px 0;
+    line-height:1.6;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:10px;
+    line-height:1.6;
+}
+
+.footer{
+    text-align:center;
+    background:#0f766e;
+    color:white;
+    padding:15px;
+}
+
+@media(max-width:768px){
+.content{
+grid-template-columns:1fr;
+}
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="header">
+
+<img src="https://via.placeholder.com/150" alt="Foto Profil">
+
+<h1>A. Bintang Pangerang</h1>
+
+<p>Mahasiswa Polbangtan Gowa</p>
+
+</div>
+
+<div class="content">
+
+<div class="left">
+
+<h2>Kontak</h2>
+
+<div class="info">
+<p><strong>📞 Telepon</strong><br>0882021390911</p>
+
+<p><strong>✉ Email</strong><br>bintangpangerang123@gmail.com</p>
+
+<p><strong>📍 Domisili</strong><br>Kota Makassar, Sulawesi Selatan</p>
+</div>
+
+<h2>Minat</h2>
+
+<ul>
+<li>Bermain Musik</li>
+<li>Menyanyi</li>
+</ul>
+
+</div>
+
+<div class="right">
+
+<h2>Pendidikan</h2>
+
+<p>Mahasiswa <strong>Polbangtan Gowa</strong>.</p>
+
+<br>
+
+<h2>Keterampilan</h2>
+
+<ul>
+<li>Mampu mempraktikkan ilmu peternakan yang diperoleh selama perkuliahan.</li>
+
+<li>Mampu memberikan penyuluhan dan pendampingan kepada peternak berdasarkan ilmu peternakan yang dipelajari.</li>
+
+<li>Mampu bekerja sama dalam tim.</li>
+
+<li>Memiliki kemampuan komunikasi yang baik dengan masyarakat dan peternak.</li>
+</ul>
+
+<br>
+
+<h2>Tentang Saya</h2>
+
+<p>
+Saya merupakan mahasiswa Polbangtan Gowa yang memiliki minat besar pada bidang peternakan.
+Saya berkomitmen menerapkan ilmu yang diperoleh di bangku kuliah untuk membantu peternak dalam meningkatkan pengetahuan dan produktivitas usaha peternakan. Selain itu, saya memiliki hobi bermain musik, khususnya menyanyi.
+</p>
+
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 | CV A. Bintang Pangerang
+</div>
+
+</div>
+
+</body>
+</html>
